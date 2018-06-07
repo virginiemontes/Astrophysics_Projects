@@ -1,3 +1,7 @@
+'''This program takes a list of Right Ascension and declination in degrees for each source, calculates the distance
+between each source and the high-mass protostar, and convert this distance into physical coordinates in parsec. 
+The physical coordinates are written in a file.'''
+
 import numpy as np
 
 # X-ray sources positions
